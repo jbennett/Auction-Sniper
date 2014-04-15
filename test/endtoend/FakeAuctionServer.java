@@ -9,7 +9,7 @@ import org.jivesoftware.smack.packet.Message;
 public class FakeAuctionServer {
 	private final SingleMessageListener messageListener = new SingleMessageListener();
 	
-	public static final String ITEM_ID_AS_LOGIN = "Action-%s";
+	public static final String ITEM_ID_AS_LOGIN = "auction-%s";
 	public static final String AUCTION_RESOURCE = "Auction";
 	public static final String XMPP_HOSTNAME = "localhost";
 	private static final String AUCTION_PASSWORD = "auction";
